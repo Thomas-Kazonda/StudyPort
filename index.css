@@ -1,0 +1,252 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+  
+}
+.logo{
+    padding-left: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    background-color: aqua;
+   
+}
+.list{
+    flex-grow: 1;
+    flex-shrink: 1;
+    display: flex;
+    gap: 1.7rem;
+    list-style: none;
+}
+ul li a {
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.studyPort-Intro{
+  
+    height:100vh;
+    width: 95%;
+    background-image: url("https://static.wixstatic.com/media/46d776_b381879ad351410fa5fdaa1b1c30f370~mv2.jpg/v1/fill/w_1349,h_516,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/46d776_b381879ad351410fa5fdaa1b1c30f370~mv2.jpg");
+    backdrop-filter: blur(8px);
+    
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0,0.4);
+    
+    
+    
+}
+.logo-1{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0,0.4);
+    filter: blur(2px);
+}
+button strong{
+    letter-spacing: 1px;
+    font-size: large;
+    font-weight: 700;
+    
+}
+
+.aboutUs{
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0,0.4);
+    color: white;
+    font-weight: bolder;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-300px);
+    z-index:2;
+    text-align: center;
+   
+    box-shadow: 3px,3px;
+    
+    
+}
+
+h1{
+    font-size: larger;
+    font-weight:bolder;
+    color: rgba(255, 255, 255, 0.678);
+    letter-spacing: 1px;
+    
+}
+main button{
+    display: block;
+    width: 200px;
+    height: 30px;
+    border-radius: 8px;
+}
+.image1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.image-1{
+    background-image: url("photo_2024-03-14_21-41-37.jpg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    backdrop-filter: 4px;
+    width: 50%;
+    height:600px;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(58, 55, 55, 0.4);
+    border: 3px solid f1f1f1;
+    border-radius: 5px;
+    
+
+}
+.image-1 button{
+    transform: translateY(-60px);
+}
+
+h3{
+    text-align: center;
+    color: rgba(134, 61, 61, 0.853);
+    font-weight: bolder;
+    font-size: larger;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.learnMore{
+    display: block;
+    width: 200px;
+    height: 30px;
+    border-radius: 8px;
+}
+#main{
+    display: flex;
+    height:fit-content;
+    width: 100%;
+    padding-left: 100px;
+    margin-top: 0;
+
+
+}
+.content-box{
+    width: 50%;
+    image-rendering: optimizeQuality;
+    height: 50%;
+    
+}
+
+   
+
+
+.platform{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    display: block;
+    width: 200px;
+    height: 30px;
+    border-radius: 8px;
+    
+
+}
+.services{
+    display: flex;
+    gap: 100px;
+    width: 900px;
+    height: 900px;
+    background-image: url("https://www.bing.com/images/search?view=detailV2&ccid=XgX8v%2flQ&id=3034BC711D0486A9A36DCA7EDFD3261B46CD55F2&thid=OIP.XgX8v_lQyEEz-Y83kwSVOgHaEG&mediaurl=https%3a%2f%2fwww.uscmed.com%2fwp-content%2fuploads%2fsites%2f3%2f2019%2f12%2fJob-Placement-Assistance-Is-Important-U.S.-Colleges.jpg&exph=499&expw=900&q=University+Placement+Assistance&simid=607993561065600943&FORM=IRPRST&ck=C46ED8A444DF5688353455370506D8AB&selectedIndex=36&itb=0");
+
+
+}
+.innerElement{
+    height:inherit;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0,0.4);
+    border: 3px solid f1f1f1;
+    border-radius: 5px;
+
+}
+.applicationForm{
+    text-align: center;
+   
+   height: fit-content;
+   border: 3px solid #f1f1f1;
+   border-radius: 8px;
+    
+    background-color: #545252;
+}
+form div{
+    width: 300px;
+}
+input{
+    padding: 10px;
+}
+outerApplication{
+    width: 500px;
+    border-left: 3px solid black;
+    height: 700px;
+}
+.universityPlacement{
+    width: 350px;
+    height: 350px;
+    padding:10px;
+    margin: 10px;
+
+
+}
+ .universityPlacement img{
+    width: inherit;
+    height: 300px;
+ }
+ .academicCounselling{
+    width: 350px;
+    height: 350px;
+    padding:10px;
+    margin: 10px;
+
+ }
+ .academicCounselling img{
+    width: inherit;
+    height: 300px;
+
+ }
+ .extension{
+    display: flex;
+    gap: 30px;
+    transform: translateY(-400px);
+    
+ }
+ .ext1,.ext2,.ext3{
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    box-shadow: 6px 6px ;
+ }
+ .ext1,.ext2,.ext3 strong{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 800;
+   
+
+ }
+ .ext3 strong{
+    position: relative;
+    top: 40px;
+
+ }
+ 
+
